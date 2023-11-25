@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 5.4%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-brand {
+    height: 100%;
+    width: 90px;
+}
+
+.brand-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-items {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-dropdown {
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.dropdown-container {
+    border: 1px grey solid;
+    padding: 0.2rem;
+    border-radius: 5px;
+    background: rgba(35, 35, 35, 0.8);
+}
+
+.signin-btn {   
+    background-color: #e50914;
+    color: white;
+    padding: 0.2rem 0.8rem;
+    border: 1px #e50914 solid;
+    border-radius: 5px;
+}
+
+.hero-bg-image {
+    width: 100%;
+    height: 80vh;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.line {
+    height: 1.2vh;
+    background-color: grey;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.mobbr {
+    display: block;
+}
+
+.lapbr {
+    display: none;
+}
+
+.hero-card {
+    position: absolute;
+    top: 22%;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transform: scale(1.1);
+}
+
+/* For tablets */
+@media (min-width: 768px) {
+    .hero-bg-image {
+        height: 82vh;
+    }
+
+    .bg-overlay {
+        height: 82vh;
+    }
+
+    .mobbr {
+        display: none;
+    }
+
+    .hero-card {
+        transform: scale(0.95);
+        top: 30%;
+    }
+}
+
+/* For Laptops */
+@media (min-width: 1024px) {
+    nav {
+        padding: 1.6rem 11%;
+    }
+
+    .navbar-brand {
+        width: 150px;
+    }
+
+    .signin-btn {
+        padding: 0.2rem 1rem;
+    }
+
+    .lang-dropdown {
+        width: 5rem;
+        text-align: center;
+    }
+
+    .dropdown-container {
+        padding-left: 12px;
+    }
+
+    .nav-items {
+        gap: 25px;
+    }
+
+    .hero-bg-image {
+        height: 99vh;
+    }
+
+    .bg-overlay {
+        height: 99vh;
+    }
+
+    .mobbr {
+        display: none;
+    }
+    
+    .lapbr {
+        display: block;
+    }
+
+    .hero-card {
+        transform: scale(1.3);
+        top: 40%;
+    }
+}
+
+/* For large screens */
+@media (min-width: 1440px) {
+    
+}
