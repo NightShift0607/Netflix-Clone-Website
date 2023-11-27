@@ -293,6 +293,11 @@ h1 {
     outline: none;
     color: white;
     margin: 5px 0;
+    transition: all 0.3s;
+}
+
+.faq-title:hover {
+    background-color: #434343;
 }
 
 .faq-visible {
@@ -334,6 +339,7 @@ footer a {
 
 .links {
     display: grid;
+    width: 100%;
     grid-template-columns: 1.4fr 1fr;
     gap: 10px;
 }
@@ -528,6 +534,6 @@ footer a {
     }
 
     .links {
-        grid-template-columns: 2.4fr 2.4fr 2.4fr 1fr;
+        grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr;
     }
 }
