@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="icon" type="image/svg" href="/images/nlogo.svg"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
@@ -72,18 +73,25 @@
         </section>
         <hr class="line">
         <section class="features-container">
-            <div class="feature">
-                <div class="images">
-                    <img src="/images/TV.png" alt="TV" class="feature-image">
-                    <div class="video-container">   
-                        <video class="feature-video" autoplay loop muted>
-                            <source src="/images/video-tv-in.m4v" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
+            <div class="feature opposite">
                 <div class="details">
                     <h1 class="title">Download your shows to watch offline</h1>
                     <p class="subtitle1">Save your favourites easily and always have something to watch.</p>
+                </div>
+                <div class="images images-right">
+                    <img src="/images/mobile.jpg" alt="TV" class="feature-image">
+                    <div class="poster-container">   
+                        <div class="poster">
+                            <img src="/images/boxshot.png" alt="boxshot" class="poster-image">
+                        </div>
+                        <div class="poster-text">
+                            <p class="poster-subtitle"><b>Stranger Things</b></p>
+                            <p class="subtitle3">Downloading...</p>
+                        </div>
+                        <div class="download-ani">
+                            <img src="/images/download-icon.gif" alt="download icon" class="down">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -96,9 +104,9 @@
                 </div>
                 <div class="images small">
                     <img src="/images/device-pile-in.png" alt="device pile in tv" class="feature-image">
-                    <div class="video-container">   
+                    <div class="video-container2">   
                         <video class="feature-video" autoplay loop muted>
-                            <source src="/images/video-tv-in.m4v" type="video/mp4">
+                            <source src="/images/video-devices-in.m4v" type="video/mp4">
                         </video>
                     </div>
                 </div>
@@ -106,18 +114,130 @@
         </section>
         <hr class="line">
         <section class="features-container">
-            <div class="feature">
-                <div class="images">
-                    <img src="/images/children.png" alt="children" class="feature-image">
-                </div>
+            <div class="feature opposite">
                 <div class="details">
                     <h1 class="title">Create profiles for kids</h1>
                     <p class="subtitle1">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
                 </div>
+                <div class="images images-right">
+                    <img src="/images/children.png" alt="children" class="feature-image">
+                </div>
+            </div>
+        </section>
+        <hr class="line">
+        <section class="faq">
+            <h1 class="title">Frequently Asked Questions</h1>
+            <div class="faq-list">
+                <div class="faq-accordian">
+                    <button class="faq-title">
+                        What is Netflix?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-visible">
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+                        <p>You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                    </div>
+                </div>
+                <div class="faq-accordian">
+                    <button class="faq-title">
+                        How much does Netflix cost?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-visible">
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+                    </div>
+                </div>
+                <div class="faq-accordian">
+                    <button class="faq-title">
+                        Where can I Watch?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-visible">
+                        <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+                        <p>You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                    </div>
+                </div>
+                <div class="faq-accordian">
+                    <button class="faq-title">
+                        How do I cancel?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-visible">
+                        <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                    </div>
+                </div>
+                <div class="faq-accordian">
+                    <button class="faq-title">
+                        What can I watch on Netflix?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-visible">
+                        <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                    </div>
+                </div>
+                <div class="faq-accordian">
+                    <button class="faq-title">
+                        Is Netflix good for kids?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-visible">
+                        <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.</p>
+                        <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="subtitle2">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="email-form-container">
+                <div class="email-form">
+                    <input type="email" name="email" id="email1" class="email-input" placeholder=" ">
+                    <label class="email-label" for="email1">Email address</label>
+                </div>
+                <button class="primary-btn">Get Started &nbsp;&nbsp;<i class="fa-solid fa-chevron-right"></i></button>
             </div>
         </section>
         <hr class="line">
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="ques">
+                Questions? Call 
+                <a href="tel:000-800-919-1694">000-800-919-1694</a>
+            </div>
+            <div class="links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Centre</a>
+                <a href="#">Account</a>
+                <a href="#">Media Centre</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Speed Test</a>
+                <a href="#">Leagal Notices</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="footer-lang">
+                <div class="dropdown-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+                        <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>
+                        <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z"/>
+                    </svg>
+                    <select name="language" id="language-select" class="lang-dropdown">
+                        <option value="english" selected>English</option>
+                        <option value="hindi">Hindi</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                Netflix India
+            </div>
+        </div>
+    </footer>
 
     <script src="main.js"></script>
 </body>

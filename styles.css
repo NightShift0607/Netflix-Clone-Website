@@ -208,6 +208,137 @@ h1 {
     width: 100%;
 }
 
+.poster-container {
+    position: absolute;
+    height: 22%;
+    top: 72%;
+    left: 15%;   
+    border: 2px solid gray;
+    width: 70%;
+    min-width: 16rem;
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.poster-text {
+    margin-top: 5%;
+    margin-left: 1rem;
+    line-height: 0.1;
+    word-spacing: 0.8px;
+}
+
+.poster-subtitle {
+    font-size: 0.9em;
+}
+
+.subtitle3 {
+    font-size: 0.8rem;
+    color: #0071eb;
+}
+
+.poster {
+    width: 15%;
+    height: 85%;
+    margin-left: 0.8rem;
+}
+
+.poster-image {
+    width: 100%;
+    height: 100%;
+}
+
+.download-ani {
+    width: 3rem;
+    position: absolute;
+    right: 0.8rem;
+}
+
+.down {
+    width: 100%;
+    height: 100%;
+}
+
+.video-container2 {
+    width: 60%;
+    position: absolute;
+    top: 9%;
+    left: 20%;
+    z-index: -3;
+}
+
+.faq {
+    padding: 4rem 4%;
+    text-align: center;
+}
+
+.faq-list {
+    margin: 2rem 0;
+}
+
+.faq-accordian {
+    width: 100%;
+}
+
+.faq-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    font-size: 18px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    outline: none;
+    color: white;
+    margin: 5px 0;
+}
+
+.faq-visible {
+    background-color: #303030;
+    border-top: 1px solid black;
+    max-height: 0;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    text-align: left;
+}
+
+.faq-visible > p {
+    margin: 1rem;
+}
+
+.faq .subtitle2 {
+    margin-bottom: 2rem;
+}
+
+footer {
+    color: rgb(153, 149, 149);
+    padding: 5%;
+}
+
+footer svg {
+    color: white;
+}
+
+footer a {
+    color: rgb(153, 149, 149);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 10px;
+}
+
+
 /* For tablets */
 @media (min-width: 768px) {
     .hero-bg-image {
@@ -240,6 +371,38 @@ h1 {
 
     .primary-btn {
         margin-top: 0;
+    }
+
+    .poster-container {
+        transform: scale(0.8);
+    }
+
+    .poster-text {
+        line-height: 0.4;
+    }
+
+    .poster-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .subtitle3 {
+        font-size: 1.2rem;
+    }
+
+    .download-ani {
+        width: 4rem;
+    }
+
+    .faq-title {
+        font-size: 1.2rem;
+    }
+
+    .faq-visible {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        grid-template-columns: 2.4fr 1fr;
     }
 }
 
@@ -308,6 +471,20 @@ h1 {
         width: 94%;
         align-items: center;
         margin: auto;
+        justify-content: space-between;
+    }
+
+    .images-right {
+        margin-left: -2rem;
+    }
+
+    .opposite {
+        flex-direction: row-reverse;
+    }
+
+    .features-container {
+        transform: scale(0.9);
+        margin: 4rem 0;
     }
 
     .details {
@@ -316,5 +493,41 @@ h1 {
 
     .small {
         width: 80%;
+    }
+
+    .poster-container {
+        transform: scale(1.1);
+    }
+
+    .poster-text {
+        line-height: 0.3;
+    }
+
+    .poster-subtitle {
+        font-size: 1rem;
+    }
+
+    .subtitle3 {
+        font-size: 0.8rem;
+    }
+
+    .faq {
+        padding: 4rem 10%;
+    }
+
+    .faq-title {
+        font-size: 1.5rem;
+    }
+
+    .faq-visible {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        padding-left: 10rem;
+    }
+
+    .links {
+        grid-template-columns: 2.4fr 2.4fr 2.4fr 1fr;
     }
 }
